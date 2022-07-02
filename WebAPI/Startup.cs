@@ -70,6 +70,7 @@ namespace WebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSentryTracing();
 
             app.UseEndpoints(endpoints =>
             {
