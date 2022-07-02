@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    public interface ICalcularIVA
+    /*public interface ICalcularIVA
     {
         double calcularIVA(System.Data.IDbConnection dbConnection, int id_cliente);
     }
@@ -25,5 +25,5 @@ namespace Interfaces
     public interface IDescuentosCliente : ICalcularIVA, ICalcularISR, ICalcularAhorro
     {
 
-    }
+    }*/
 }
